@@ -1,0 +1,24 @@
+name: hariku_app
+description: HariKu - Aplikasi Manajemen Tugas Harian (UTS Pemrograman Mobile).
+publish_to: 'none'
+version: 1.1.0+2
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+  flutter_local_notifications: ^22.3.2
+  timezone: ^0.11.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
